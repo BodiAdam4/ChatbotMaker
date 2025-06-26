@@ -1,0 +1,9 @@
+érzékenység:3
+kérdés<'Hogy hívnak?'><'Mi a neved?'>
+válasz(random)<'A nevem Jani'><'Janinak hívnak'>
+kérdés<'Hány éves vagy?'>
+válasz<'14'>
+kérdés<'Mit gondolsz a programozásról?'>
+válasz{50%}<'Nagyon király dolog'>{25%}<'Fantasztikus'>{15%}<'Zseniális'>{6%}<'Elég könnyû'>{4%}<'Nem hallotam még róla'>
+kérdés<'Ki a legjobb barátod?'>
+válasz<'Bódi Ádám, hisz õ készített engem.'>

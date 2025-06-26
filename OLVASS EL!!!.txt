@@ -1,0 +1,15 @@
+A "Chat Bot Maker" nevû program célja a chat botok létrehozása programozói tudás nélkül, a chat botok a gyakran feltett kérdések megválaszolására alkalmasak és így nagyban megkönnyítik a weboldalak ügyfélszolgálatainak munkáját és sokkal
+elegánsabb megoldásnak számítanak, mint egy "GY.I.K." menüpont.A program elinditása után, a fájl kiválasztása gomb segítségével be kell importálnunk egy ".txt" kiterjesztésû dokumentumot.Ebben a dokumentumban kell betáplálnunk a 
+kérdéseket és a válaszokat.A példa.txt fájl tartalmazz néhány példát, hogy hogyan kell a Bot-ot beprogramozni.Minden sor egy-egy új parancs.Egyik legfontosabb beállítás az érzékenység, amelyet az érzékenység:szám használatával lehet 
+beállítani, ahol a szám egytetszõleges szám 0 és 10 között.A kérdés és a válasz definiálása nagyon hasonló struktúrával rendelkezik kérdés<'Ide jön egy kérdés'> és válasz<'Ide jön egy válasz'>.Az elsõ definiált válasz az elsõ definiált 
+kérdéshez tartozik, így érdemes a kérdést és a választ közvetlen egymás alá definiálni, de ez nem kötelezõ.A kérdés definiálásánál akárhány <'Ide jön egy kérdés'> lehet egymás mellé tenni, amelyek ugyanarra a válaszra mutatnak majd.
+A válasz definiálásánál több beállítás is van válaszból is többet meglehet adni egy kérdésre és, ha azt akarjuk, hogy ezekbõl véletlenszerûen sorsoljon abban az esetben a válasz szó után egy (random) beillesztésével érhetjük ezt el.
+Amennyiben mi akarjuk beállítani egy válasz esetében a százalékokat, akkor minden válasz elé a {szám%} beillesztésével tudjuk ezt elérni, ahol a szám egy 0-100 terjedõ egész szám.A .txt fájl beimportálása után a legalsó mezõbe lehet írni
+a kérdéseket és a felsõbe kapjuk meg a válaszokat.Ha kikattintunk az alsó mezõbõl, akkor az törölni fogja a felsõ mezõ tartalmát, valamint újra betölti a .txt fájlt.
+
+A példa.txt fájl beállításai tehát a következõkhõz vezetnek:
+-Az érzékenysége 2 lesz.
+-A "Hogy hívnak?" és a "Mi a neved?" kérdésre a "A nevem Jani" és a "Janinak hívnak" válaszok közül fog véletlenszerûen sorsolni
+-A "Hány éves vagy?" kérdésre a "14" választ fogja adni 
+-A "Mit gondolsz a programozásról?" kérdésre 50% eséllyel a "Nagyon király dolog" 25% eséllyel a "Fantasztikus" 15% eséllyel a "Zseniális" 6% eséllyel az "Elég könnyû" és 4% eséllyel a "Nem hallotam mégróla" választ fogja adni
+-A "Ki a legjobb barátod?" kérdésre pedig a "Bódi Ádám, hisz õ készített engem." választ fogja adni.
